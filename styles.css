@@ -186,7 +186,7 @@
   }
 }
 
-/* Section 1 CSS */
+/* Section 1.1 CSS */
 .main {
   background-color: #203121;
 }
@@ -313,3 +313,106 @@
     margin: 2.5rem 0;
   }
 }
+
+/* Section 1.2 CSS*/
+.aboutus {
+  background-color: #2f2e41;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.aboutus h1 {
+  background-color: #bff102;
+  background-image: linear-gradient(to right, #48b10b 0%, #bff102 100%);
+  background-size: 100%;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.aboutus__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.aboutus__card {
+  margin: 1rem;
+  height: 525px;
+  width: 400px;
+  border-radius: 4px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
+    url("/images/aboutus1.jpg");
+  background-size: cover;
+  position: relative;
+  color: #bff102;
+}
+.aboutus__card:nth-child(2) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
+    url("/images/stuff.jpg");
+  color: #000;
+}
+
+.aboutus h2 {
+  position: absolute;
+  top: 350px;
+  left: 30px;
+}
+.aboutus__card p {
+  position: absolute;
+  top: 400px;
+  left: 30px;
+}
+.aboutus__card button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #48b10b;
+  position: absolute;
+  top: 440px;
+  left: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.aboutus__card:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .aboutus {
+    height: 1600px;
+  }
+  .aboutus h1 {
+    font-size: 2rem;
+    margin-top: 12rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .aboutus {
+    height: 1400px;
+  }
+  .aboutus h1 {
+    font-size: 1.2rem;
+  }
+  .aboutus__card {
+    width: 300px;
+  }
+}
+
+/* Footer CSS */

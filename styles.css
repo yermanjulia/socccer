@@ -219,7 +219,7 @@
   margin-top: 1rem;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #040404;
+  color: #d3d3d3;
 }
 
 .main__btn {
@@ -416,3 +416,65 @@
 }
 
 /* Footer CSS */
+
+.footer__container {
+  background-color: #1b2b1c;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#footer__logo {
+  color: #bff102;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.footer__ {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Social Icons */
+.social__icons--link {
+  color: #bff102;
+  max-width: 1000px;
+  font-size: 24px;
+}
+
+/* .social__media {
+  max-width: 1000px;
+  width: 100%;
+}
+.social__media--wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+} */
+
+.social__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.social__logo {
+  color: #d3d3d3;
+  justify-self: flex-start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}

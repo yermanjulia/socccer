@@ -1,38 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+# Soccer Website
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>README.md</title>
-</head>
+## Description
 
-<body>
-  <h1>Soccer Website</h1>
+This is a sample Soccer Club website showcasing various sections such as the home page, about us, players and staff, contact us, and philosophy. The website is designed using HTML, CSS, and JavaScript.
 
-  <h2>Description</h2>
-  <p>This is a sample Soccer Club website showcasing various sections such as the home page, about us, players and staff,
-    contact us, and philosophy. The website is designed using HTML, CSS, and JavaScript.</p>
+## Installation
 
-  <h2>Installation</h2>
-  <p>1. Clone the repository to your local machine:</p>
-  <pre><code>git clone https://github.com/yermanjulia/socccer.git</code></pre>
-  <p>2. Navigate to the project directory:</p>
-  <pre><code>cd soccer</code></pre>
-  <p>3. Open the index.html file in your web browser to view the website.</p>
+1\. Clone the repository to your local machine:
 
-  <h2>Usage</h2>
-  <p>Feel free to use this code as a template for your own soccer club website. Customize the content, images, and styles
-    to suit your club's branding and requirements.</p>
+    git clone https://github.com/yermanjulia/soccer.git
 
-  <h2>Contributing</h2>
-  <p>Contributions are welcome! If you have any improvements or bug fixes, please open an issue or submit a pull request
-    on the GitHub repository.</p>
+2\. Navigate to the project directory:
 
-  <h2>Contact</h2>
-  <p>If you have any questions or suggestions, feel free to contact us at:</p>
-  <p>Email: julia@fromqato.dev</p>
-  <p>Website: <a href="https://www.fromqato.dev/soccer">www.fromqato.dev/soccer</a></p>
-</body>
+    cd soccer
 
-</html>
+3\. Open the index.html file in your web browser to view the website.
+
+## Usage
+
+Feel free to use this code as a template for your own soccer club website. Customize the content, images, and styles to suit your club's branding and requirements.
+
+## Contributing
+
+Contributions are welcome! If you have any improvements or bug fixes, please open an issue or submit a pull request on the GitHub repository.
+
+## Contact
+
+If you have any questions or suggestions, feel free to contact us at:
+
+Email: julia@fromqato.dev
+
+Website: [www.fromqato.dev/soccer](https://www.fromqato.dev/soccer)

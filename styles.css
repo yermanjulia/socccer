@@ -351,7 +351,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url("/images/about-us.jpg");
+    url("images/about-us.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -365,7 +365,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url("/images/stuff.jpg");
+    url("images/stuff.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -528,7 +528,7 @@ slide h3 {
 /* Philosophy */
 
 .philosophy {
-  background-image: url("/images/stuff.jpg");
+  background-image: url("images/stuff.jpg");
   background-size: cover;
   background-position: center;
 }
